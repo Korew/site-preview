@@ -6,12 +6,14 @@
 .wrapper .devices-holder {
   text-align: center;
   padding: 20px; }
-  .wrapper .devices-holder [class$="-device"] {
+  .wrapper .devices-holder [id$="-device"] {
     display: inline-block;
     font-size: 3em;
     margin-right: 20px; }
   .wrapper .devices-holder [class^="icon-"]:hover {
     cursor: pointer;
+    color: #0275d8; }
+  .wrapper .devices-holder .active {
     color: #0275d8; }
 
 .wrapper .site-preview {
