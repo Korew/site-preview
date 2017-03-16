@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.wrapper .devices-holder {
+  text-align: center;
+  padding: 20px; }
+  .wrapper .devices-holder [class$="-device"] {
+    display: inline-block;
+    font-size: 3em;
+    margin-right: 20px; }
+  .wrapper .devices-holder [class^="icon-"]:hover {
+    cursor: pointer;
+    color: #0275d8; }
+
+.wrapper .site-preview {
+  margin: 0 auto;
+  outline: 1px solid #ccc;
+  width: 1200px;
+  height: 568px;
+  transition: 1s; }
